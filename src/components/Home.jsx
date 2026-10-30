@@ -62,14 +62,14 @@ const FacebookHero = ({ brand }) => (
     style={{ background: "linear-gradient(to bottom, var(--c-bg-base), var(--c-bg-alt))" }}>
     <div className="w-full pt-20">
       {/* Cover photo area */}
-      <div className="w-full h-64 md:h-80 relative z-0" style={{ background: "linear-gradient(135deg, var(--c-primary), var(--c-secondary))" }}>
+      <div className="w-full h-64 md:h-80 relative" style={{ background: "linear-gradient(135deg, var(--c-primary), var(--c-secondary))" }}>
         <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "url('data:image/svg+xml,%3Csvg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fill-rule=\"evenodd\"%3E%3Cg fill=\"%23ffffff\" fill-opacity=\"0.4\"%3E%3Cpath d=\"M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')" }} />
       </div>
 
       {/* Profile section */}
-      <div className="w-full px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 -mt-20 relative z-10">
+      <div className="w-full px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 -mt-20 relative">
         <div className="flex flex-col md:flex-row items-center md:items-end gap-4 sm:gap-6">
-          <div className="relative z-0">
+          <div className="relative">
             <div className="w-28 h-28 sm:w-40 sm:h-40 rounded-full border-4 border-t-card overflow-hidden bg-t-card shadow-xl">
               <img src={HeroImage} alt="Ansh Gandharve" className="w-full h-full object-cover" />
             </div>
@@ -77,7 +77,7 @@ const FacebookHero = ({ brand }) => (
           </div>
           <div className="flex-1 pb-4 text-center md:text-left">
             <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-t-text">Ansh Gandharve</h1>
-            <div className="relative text-xl text-t-text font-semibold mt-1 overflow-visible">
+            <div className="text-xl text-t-text font-semibold h-8 mt-1">
               <TypeAnimation
                 sequence={['Full Stack Developer', 2000, 'Java Developer', 2000, 'React Developer', 2000, 'Software Engineer in the Making', 2000]}
                 wrapper="span" speed={40} repeat={Infinity}
