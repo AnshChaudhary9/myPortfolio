@@ -7,8 +7,8 @@ const SEO = () => {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Ansh Gandharve",
-    url: "https://harsh-arv.github.io/myPortfolio/",
-    image: "https://harsh-arv.github.io/myPortfolio/preview.png",
+    url: "https://anshchaudhary9.github.io/myPortfolio/",
+    image: "https://anshchaudhary9.github.io/myPortfolio/preview.png",
     jobTitle: "Full Stack Developer",
     description: "Aspiring Software Engineer specializing in full-stack development with Java, Spring Boot, React.js and modern web technologies.. Passionate about building scalable applications, solving real-world problems, and transforming ideas into impactful digital experiences. Available for hire worldwide.",
     knowsAbout: [
@@ -130,7 +130,7 @@ const SEO = () => {
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://harsh-arv.github.io/myPortfolio/" />
+      <meta property="og:url" content="https://anshchaudhary9.github.io/myPortfolio/" />
       <meta
         property="og:title"
         content="Ansh Gandharve - Full Stack Developer | Java & React Developer | Available for Hire"
@@ -141,7 +141,7 @@ const SEO = () => {
       />
       <meta
         property="og:image"
-        content="https://harsh-arv.github.io/myPortfolio/preview.png"
+        content="https://anshchaudhary9.github.io/myPortfolio/preview.png"
       />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
@@ -152,7 +152,7 @@ const SEO = () => {
       <meta property="twitter:card" content="summary_large_image" />
       <meta
         property="twitter:url"
-        content="https://harsh-arv.github.io/myPortfolio/"
+        content="https://anshchaudhary9.github.io/myPortfolio/"
       />
       <meta
         property="twitter:title"
@@ -164,14 +164,14 @@ const SEO = () => {
       />
       <meta
         property="twitter:image"
-        content="https://harsh-arv.github.io/myPortfolio/preview.png"
+        content="https://anshchaudhary9.github.io/myPortfolio/preview.png"
       />
       <meta name="twitter:creator" content="@anshgandharvex" />
 
       {/* Additional Meta Tags */}
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="theme-color" content="#06b6d4" />
-      <link rel="canonical" href="https://harsh-arv.github.io/myPortfolio/" />
+      <link rel="canonical" href="https://anshchaudhary9.github.io/myPortfolio/" />
       
       {/* Structured Data (JSON-LD) */}
       <script type="application/ld+json">

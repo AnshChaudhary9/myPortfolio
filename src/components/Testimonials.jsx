@@ -7,35 +7,35 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Senior Tech Lead",
-      role: "Technical Manager at Turing",
-      image: "https://ui-avatars.com/api/?name=Tech+Lead&background=06b6d4&color=fff&size=200",
+      name: "Faculty Mentor",
+      role: "FM at GGSIPU",
+      image: "https://ui-avatars.com/api/?name=Faculty+Mentor&background=06b6d4&color=fff&size=200",
       rating: 5,
-      text: "Harsh is an exceptional developer who consistently delivers high-quality code. His expertise in Spring Boot and microservices architecture has been instrumental in our project success. He's always willing to mentor junior developers and share his knowledge.",
+      text: "Ansh demonstrated exceptional problem-solving abilities during the AI Innovators competition. He worked collaboratively with his team to address a challenging real-world problem and contributed meaningfully to developing an innovative solution. His ability to think critically, collaborate, and turn ideas into practical outcomes is commendable.",
     },
     {
       id: 2,
-      name: "Product Owner",
-      role: "Product Manager at Xebia",
-      image: "https://ui-avatars.com/api/?name=Product+Owner&background=3b82f6&color=fff&size=200",
+      name: "Assistant Professor",
+      role: "AP at GGSIPU",
+      image: "https://ui-avatars.com/api/?name=Assistant+Professor&background=3b82f6&color=fff&size=200",
       rating: 5,
-      text: "Working with Harsh was a pleasure. He has a deep understanding of both frontend and backend technologies. His ability to translate business requirements into technical solutions while maintaining code quality is remarkable. Highly recommended!",
+      text: "Ansh has consistently maintained an excellent academic record, achieving a CGPA of over 9.0. His dedication to academics, disciplined approach to learning, and strong understanding of technical concepts reflect his commitment to excellence. He has shown a commendable balance between academic performance and practical learning!",
     },
     {
       id: 3,
-      name: "Team Colleague",
-      role: "Senior Engineer at BluePi",
-      image: "https://ui-avatars.com/api/?name=Team+Member&background=8b5cf6&color=fff&size=200",
+      name: "Project Guide",
+      role: "Project Guide at GGSIPU",
+      image: "https://ui-avatars.com/api/?name=Project+Guide&background=8b5cf6&color=fff&size=200",
       rating: 5,
-      text: "Harsh's problem-solving skills and attention to detail are outstanding. He led our migration to microservices architecture and reduced our deployment time significantly. A true professional who takes ownership of his work.",
+      text: "Ansh is a curious and enthusiastic learner who approaches technical challenges with a positive mindset. His willingness to explore new technologies, contribute to team projects, and continuously improve his skills makes him a promising aspiring software developer. I appreciate his dedication and eagerness to learn.",
     },
     {
       id: 4,
-      name: "Project Manager",
-      role: "PM at Wipro Technology",
-      image: "https://ui-avatars.com/api/?name=Project+Manager&background=10b981&color=fff&size=200",
+      name: "Assistant Professor",
+      role: "AP at GGSIPU",
+      image: "https://ui-avatars.com/api/?name=Assistant+ProfessorM&background=10b981&color=fff&size=200",
       rating: 5,
-      text: "Harsh was one of our most reliable developers. He consistently met deadlines and produced clean, maintainable code. His collaborative approach and communication skills made him a valuable team member. Would love to work with him again!",
+      text: "Ansh has demonstrated enthusiasm for learning and a keen interest in software development. His willingness to explore new technologies and work on practical projects reflects his commitment to improving his technical skills!",
     },
   ];
 
@@ -83,7 +83,7 @@ const Testimonials = () => {
 
         <div className="mt-12 text-center">
           <p className="text-t-text-secondary mb-4">Want to see more recommendations?</p>
-          <a href="https://www.linkedin.com/in/harsh-gandharv/" target="_blank" rel="noreferrer"
+          <a href="https://www.linkedin.com/in/ansh-gandharve-700048303/" target="_blank" rel="noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-t-primary text-white rounded-lg hover:scale-105 transition-transform duration-200">
             View LinkedIn Recommendations
           </a>

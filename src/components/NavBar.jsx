@@ -12,7 +12,7 @@ const NavBar = () => {
   const links = [
     { id: 1, link: "home", label: "Home" },
     { id: 2, link: "about", label: brand.sections.about },
-    { id: 3, link: "experience", label: brand.sections.experience },
+    // { id: 3, link: "experience", label: brand.sections.experience },
     { id: 4, link: "portfolio", label: brand.sections.portfolio },
     { id: 5, link: "education", label: brand.sections.education },
     { id: 6, link: "contact", label: brand.sections.contact },

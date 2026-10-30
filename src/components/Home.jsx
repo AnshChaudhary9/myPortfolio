@@ -47,9 +47,9 @@ const NetflixHero = ({ brand }) => (
 
       {/* Netflix-style tags */}
       <div className="flex flex-wrap items-center gap-2 sm:gap-4 text-xs sm:text-sm text-t-text-secondary">
-        <span className="border border-t-text-muted px-2 py-0.5 tracking-wide">4+ Seasons</span>
-        <span className="border border-t-text-muted px-2 py-0.5 tracking-wide">4 Studios</span>
-        <span className="border border-t-text-muted px-2 py-0.5 tracking-wide">15+ Technologies</span>
+        <span className="border border-t-text-muted px-2 py-0.5 tracking-wide">5+ Original Productions</span>
+        <span className="border border-t-text-muted px-2 py-0.5 tracking-wide">∞ Ideas Brewing</span>
+        <span className="border border-t-text-muted px-2 py-0.5 tracking-wide">15+ Genres Explored</span>
         <span className="text-t-accent font-bold">HD</span>
       </div>
     </div>
@@ -161,8 +161,8 @@ const AmazonHero = ({ brand }) => (
 
         {/* Amazon-style details */}
         <div className="space-y-2 text-sm mb-6">
-          <div className="flex"><span className="text-t-text-muted w-32">Experience:</span><span className="text-t-text font-semibold">4+ Years</span></div>
-          <div className="flex"><span className="text-t-text-muted w-32">Specialties:</span><span className="text-t-text font-semibold">Spring Boot, React.js, Kafka</span></div>
+          <div className="flex"><span className="text-t-text-muted w-32">Experience:</span><span className="text-t-text font-semibold">Fresher / Entry-Level</span></div>
+          <div className="flex"><span className="text-t-text-muted w-32">Specialties:</span><span className="text-t-text font-semibold">Spring Boot, React.js, MERN</span></div>
           <div className="flex"><span className="text-t-text-muted w-32">Location:</span><span className="text-t-text font-semibold">New Delhi, India</span></div>
           <div className="flex items-center"><span className="text-t-text-muted w-32">Availability:</span><span className="text-green-500 font-bold">In Stock</span></div>
         </div>
@@ -214,8 +214,8 @@ const SpotifyHero = ({ brand }) => (
         </div>
         <p className="text-white/60 text-sm">{brand.heroSubtitle}</p>
         <div className="flex items-center gap-2 text-white/50 text-sm mt-4">
-          <span className="text-white font-semibold">4+ years</span> &bull;
-          <span>4 companies</span> &bull;
+          <span className="text-white font-semibold">5+ projects</span> &bull;
+          <span>∞ Ideas on Repeat</span> &bull;
           <span>15+ tracks (technologies)</span>
         </div>
       </div>
