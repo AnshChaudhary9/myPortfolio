@@ -4,4 +4,4 @@ Allow: /
 Disallow: /static/
 
 # Sitemap location
-Sitemap: https://harsh-arv.github.io/myPortfolio/sitemap.xml
+Sitemap: https://AnshChaudhary9.github.io/myPortfolio/sitemap.xml
