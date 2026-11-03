@@ -97,7 +97,8 @@ const FacebookHero = ({ brand }) => (
             className="bg-t-card text-t-text px-4 sm:px-6 py-2 rounded-lg font-semibold text-sm sm:text-base border border-t-border hover:bg-t-alt transition cursor-pointer">
             Send Message
           </Link>
-          <a href="/resume.pdf" download
+          <a href={`${process.env.PUBLIC_URL}/resume.pdf`}
+            download="Ansh_Gandharve_Resume.pdf"
             className="bg-t-card text-t-text px-4 sm:px-6 py-2 rounded-lg font-semibold text-sm sm:text-base border border-t-border hover:bg-t-alt transition flex items-center gap-2">
             <FaDownload size={14} /> Resume
           </a>
@@ -231,7 +232,9 @@ const SpotifyHero = ({ brand }) => (
         className="text-t-text-secondary border-2 border-t-text-secondary rounded-full px-6 py-2 text-sm font-bold hover:border-white hover:text-white transition cursor-pointer">
         Follow
       </Link>
-      <a href="/resume.pdf" download className="text-t-text-muted hover:text-t-text transition text-sm font-semibold">
+      <a href={`${process.env.PUBLIC_URL}/resume.pdf`}
+        download="Ansh_Gandharve_Resume.pdf"
+        className="text-t-text-muted hover:text-t-text transition text-sm font-semibold">
         <FaDownload size={20} />
       </a>
     </div>
@@ -264,7 +267,8 @@ const DefaultHero = ({ brand }) => (
             View Projects
             <span className="group-hover:rotate-90 duration-300"><MdOutlineKeyboardArrowRight size={22} className="ml-1" /></span>
           </Link>
-          <a href="/resume.pdf" download
+          <a href={`${process.env.PUBLIC_URL}/resume.pdf`}
+            download="Ansh_Gandharve_Resume.pdf"
             className="group text-t-text w-fit px-5 sm:px-6 py-2.5 sm:py-3 flex items-center rounded-md border-2 border-t-primary hover:bg-t-primary hover:text-white cursor-pointer transition-all duration-300 text-sm sm:text-base">
             <FaDownload size={18} className="mr-2" /> Resume
           </a>

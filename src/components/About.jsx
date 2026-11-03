@@ -51,7 +51,8 @@ const About = () => {
             </div>
 
             <div className="flex justify-center">
-              <a href="/resume.pdf" download
+              <a href={`${process.env.PUBLIC_URL}/resume.pdf`}
+                download="Ansh_Gandharve_Resume.pdf"
                 className="flex items-center gap-2 px-6 py-3 bg-t-primary text-white rounded-lg hover:scale-105 transition-transform duration-200 font-semibold">
                 <FaDownload size={20} />
                 Download Resume
