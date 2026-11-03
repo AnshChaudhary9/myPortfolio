@@ -183,7 +183,7 @@ const AmazonHero = ({ brand }) => (
       {/* Product image */}
       <div className="flex-shrink-0 flex items-center justify-center">
         <div className="bg-t-card border border-t-border rounded-lg p-4 sm:p-6 shadow-xl">
-          <img src={HeroImage} alt="Harsh Gandharv" className="w-48 sm:w-64 md:w-80 rounded-lg" />
+          <img src={HeroImage} alt="Ansh Gandharve" className="w-48 sm:w-64 md:w-80 rounded-lg" />
         </div>
       </div>
     </div>
@@ -197,7 +197,7 @@ const SpotifyHero = ({ brand }) => (
     <div className="w-full px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 flex flex-col md:flex-row items-center md:items-end justify-start pt-24 sm:pt-32 pb-12 gap-6 sm:gap-8">
       {/* Album art */}
       <div className="flex-shrink-0">
-        <img src={HeroImage} alt="Harsh Gandharv"
+        <img src={HeroImage} alt="Ansh Gandharve"
           className="w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded shadow-2xl object-cover" />
       </div>
 
@@ -289,7 +289,7 @@ const DefaultHero = ({ brand }) => (
           {/* Inner mask */}
           <div className="absolute inset-[4px] rounded-full" style={{ background: "var(--c-bg-base)" }} />
           {/* Actual image */}
-          <img src={HeroImage} alt="Harsh Gandharv"
+          <img src={HeroImage} alt="Ansh Gandharve"
             className="absolute inset-[8px] rounded-full object-cover w-[calc(100%-16px)] h-[calc(100%-16px)] shadow-2xl" />
           {/* Floating accent dots */}
           <div className="absolute -top-2 -right-2 w-5 h-5 rounded-full bg-t-accent animate-bounce shadow-lg" style={{ animationDelay: "0s" }} />
